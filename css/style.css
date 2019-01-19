@@ -1384,7 +1384,7 @@ margin-bottom:20px;
 }
 
 .portfolio-filter-list a {
-    color: #000000;
+    color: #000000 !important;
     font-size: 11px;
     padding: 10px 20px;
     position: relative;
@@ -1401,14 +1401,14 @@ margin-bottom:20px;
 .portfolio-filter-list a:hover {
     border: 1px solid #FC6F5C;
     background-color: #FC6F5C;
-    color:#ffffff;
+    color:#ffffff !important;
     opacity: 1;
 }
 
 .portfolio-filter-list a.active {
     border: 1px solid #FC6F5C;
     background-color: #FC6F5C;
-    color:#ffffff;
+    color:#ffffff !important;
 }
 
 /*===================================================================================*/
