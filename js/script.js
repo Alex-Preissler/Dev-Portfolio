@@ -271,12 +271,12 @@ $(document).ready(function() {
 	var submit = $('#contactForm_submit');	
 	var alertx = $('.form-respond'); 
 
-  	// form submit event
-    $(document).on('click', '#contactform', function(e) {
+	// form submit event  
+/* 	$(document).on('click', '#contactForm_submit', function(e) {
 		e.preventDefault(); // prevent default form submit
 		// sending ajax request through jQuery
 		$.ajax({
-			url: 'sendemail.php', 
+			url: 'https://formspree.io/AlexJPreissler@Outlook.com', 
 			type: 'POST', 
 			dataType: 'html',
 			data: form.serialize(), 
@@ -299,7 +299,7 @@ $(document).ready(function() {
 			}
 		});
 	});
-
+*/
 
 	//Navigation Dropdown
 	$('.nav a.collapse-menu').click(function() {
