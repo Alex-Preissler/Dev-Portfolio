@@ -68,7 +68,7 @@ Author URI: http://themeforest.net/user/thethemelab
   .primary-navigation li:hover > a, .primary-navigation li.focus > a ,
    footer .social-icon a:hover,
    .services:hover >.services-icon i{
-    color: #3b404d;
+    color: #ff0000;
   } 
   h3.tagline-lg,p.tagline,.services:hover >.services-post{
    color: #ffffff !important;

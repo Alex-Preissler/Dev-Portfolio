@@ -6,6 +6,7 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
+  initializeMap(lat,lng);
   
 	//Elements Appear from top
 	$('.item_top').each(function() {
@@ -397,7 +398,7 @@ $(function() {
  function initializeMap(lat,lng) {
      var mapOptions = {
        center: new google.maps.LatLng(lat, lng),
-       zoom: 16,
+       zoom: 10,
        zoomControl: true,
        scaleControl: false,
        scrollwheel: false,
